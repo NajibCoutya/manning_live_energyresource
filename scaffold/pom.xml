@@ -123,6 +123,9 @@
             <configuration>
               <sourceDirectory>${project.basedir}/src/main/resources/avro</sourceDirectory>
               <outputDirectory>${project.basedir}/src/main/generated</outputDirectory>
+              <includes>
+                <include>**/*.avro</include>
+              </includes>
             </configuration>
           </execution>
         </executions>

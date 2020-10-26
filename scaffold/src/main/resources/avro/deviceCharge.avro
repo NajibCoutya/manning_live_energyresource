@@ -1,0 +1,17 @@
+{
+  "namespace": "manning.avro",
+  "type": "record",
+  "name": "ChargeEvent",
+  "fields": [
+    {
+      "name": "deviceId",
+      "type": ["string","null"],
+      "default": "A0000"
+     },
+    {
+      "name": "charge",
+       "type": ["int", "null"],
+       "default": "0"
+    }
+  ]
+}
